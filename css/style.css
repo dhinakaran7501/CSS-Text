@@ -1,0 +1,149 @@
+*{
+		margin:10px;
+	}
+	h1{
+		color:white;
+		background-color:black;
+		text-align:center;
+	}
+	h2{
+		color:green;
+	}
+	.colorname{
+		color:red;
+	}
+	.HEX{
+		color:#ff0000;
+	}
+	.RGB{
+		color:rgb(255,0,0);
+	}
+	.center{
+		text-align:center;
+	}
+	.right{
+		text-align:right;
+	}
+	.left{
+		text-align:left;
+	}
+	.justify{
+		text-align:justify;
+	}
+	.talright{
+		text-align-last:right;
+	}
+	.talcenter{
+		text-align-last:center;
+	}
+	.taljustify{
+		text-align-last:justify;
+	}
+	.reverse p{
+		direction: rtl;
+		unicode-bidi:bidi-override;
+	}
+	.a p img{
+	  vertical-align: baseline;
+	  
+	}
+
+	.b p img{
+	  vertical-align: text-top;
+	}
+
+	.c p img{
+	  vertical-align: text-bottom;
+	}
+
+	.d p span{
+	  vertical-align: sub;
+	}
+
+	.e p span{
+	  vertical-align: super;
+	}
+	.h1 {
+	  text-decoration-line: overline;
+	  text-decoration-color: red;
+	}
+
+	.h2 {
+	  text-decoration-line: line-through;
+	  text-decoration-color: green;
+	}
+
+	.h3 {
+	  text-decoration-line: underline;
+	  text-decoration-color: blue;
+	}
+
+	.p {
+	  text-decoration-line: overline underline;
+	  text-decoration-color: yellow;
+	}
+	.ex01 {
+	  text-decoration-line: underline;
+	  text-decoration-style: solid; /* this is default */
+	}
+
+	.ex02 {
+	  text-decoration-line: underline;
+	  text-decoration-style: double;
+	}
+
+	.ex03 {
+	  text-decoration-line: underline;
+	  text-decoration-style: dotted;  
+	}
+
+	p.ex1 {
+	  text-decoration-line: underline;
+	  text-decoration-style: dashed;  
+	  text-decoration-thickness: 5%;
+	}
+
+	p.ex2 {
+	  text-decoration-line: underline;
+	  text-decoration-style: wavy;
+	  text-decoration-thickness: 25%;
+ 
+	}
+
+	p.ex3 {
+	  text-decoration-line: underline;
+	  text-decoration-color: red;  
+	  text-decoration-style: wavy;
+	  text-decoration-thickness: auto;
+	}
+	.shorthand{
+		text-decoration: underline red double 5px;
+	}
+	.u{
+		text-transform:uppercase;
+	}
+	.l{
+		text-transform:lowercase;
+	}
+	.ca{
+		text-transform:capitalize;
+	}
+	.textindent{
+		text-indent:50px;
+	}
+	.letterspacing{
+		letter-spacing:5px;
+	}
+	.lineheight{
+		line-height:10;
+	}
+	.wordspacing{
+		word-spacing:10px;
+	}
+	.whitespace{
+		white-space:wrap;
+	}
+	.shadow{
+		text-shadow: 17px 14px 2px red;
+	}
+	
